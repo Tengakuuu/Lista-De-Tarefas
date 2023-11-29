@@ -1,0 +1,82 @@
+@media only screen and (max-width:425px)
+{
+    .btns > button {
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid black;
+        width: 25vw;
+        height: 6vh;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        transition: ease all 0.5s;
+        font-family: var(--fontTitulos);
+    }
+    .back {
+        background-color: rgb(104, 104, 104);
+        border: 1px solid;
+        width: 15vw;
+        height: 4vh;
+        border-radius: 10px;
+        transition: all ease 0.5s;
+    }
+    input {
+        margin-top: 2vh;
+        height: 3.5vh;
+        width: 72.6%;
+        border: 1px solid black;
+    }
+}
+@media only screen and (max-width:375px)
+{
+    input {
+        margin-top: 2vh;
+        height: 3.5vh;
+        width: 69%;
+        border: 1px solid black;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    input {
+        margin-top: 2vh;
+        height: 3.5vh;
+        width: 63.6%;
+        border: 1px solid black;
+    }
+}
+@media only screen and (max-height:425px)
+{
+    .btns > button {
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid black;
+        width: 15vw;
+        height: 10vh;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        transition: ease all 0.5s;
+        font-family: var(--fontTitulos);
+    }
+    .back {
+        background-color: rgb(104, 104, 104);
+        border: 1px solid;
+        width: 10vw;
+        height: 7vh;
+        border-radius: 10px;
+        transition: all ease 0.5s;
+    }
+    input {
+        margin-top: 2vh;
+        height: 7vh;
+        width: 72.6%;
+        border: 1px solid black;
+    }
+    #btn {
+        height: 8vh;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid black;
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListadeTarefas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylerespon.css">
+</head>
+<body>
+    <article id="hub">
+        <h1 id="Titulo">Lista de tarefas</h1>
+        <hr>
+        <div class="btns"><button id="ShowTask">Ver tarefas</button><button id="Make">Criar Tarefas</button></div>
+    </aside>
+    <aside id="MostrarTarefa">
+        <h1>Tarefas</h1>
+        <hr>
+        <ul id="lista">
+            <div class="task">
+                <span>Esta tarefa é apenas um teste</span><button class="concluir">√</button><button class="remove">X</button>
+            </div>
+        </ul>
+        <p>
+        <button class="back">Voltar</button>
+    </aside>
+    <aside id="CriarTarefa">
+        <h1>Criar Tarefa</h1>
+        <hr>
+        <input type="text" id="tarefa" placeholder="Digite Sua Tarefa..."><button id="btn">Adicionar Tarefa</button>
+        <p>
+        <button class="back">Voltar</button>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>

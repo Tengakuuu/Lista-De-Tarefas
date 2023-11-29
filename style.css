@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200&display=swap');
+
+:root{
+    --fontTitulos: 'Mulish', sans-serif;
+    --fontTexts: 'Saira Extra Condensed', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: var(--fontTitulos);
+}
+div {
+    width: max-content;
+}
+.concluido {
+    background-color: rgb(0, 210, 0);
+    color: white;
+    transition: all ease 0.5s;
+    width: max-content;
+}
+.excluir:hover {
+    background-color: red;
+    color: white;
+    transition: all ease 0.5s;
+    width: max-content;
+}
+/*CSS DO SITE*/
+h1{
+    font-size: 30px;
+    font-family: var(--fontTitulos);
+}
+#Titulo {
+    text-align: center;
+}
+.btns {
+    margin-left: auto;
+    margin-right: auto;
+}
+.btns > button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    width: 10vw;
+    height: 5vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: ease all 0.5s;
+    font-family: var(--fontTitulos);
+}
+.btns > button:hover {
+    scale: 1.2;
+}
+.back {
+    background-color: rgb(104, 104, 104);
+    border: 1px solid;
+    width: 4vw;
+    height: 4vh;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+.back:hover {
+    margin-left: 6px;
+    scale: 1.2;
+}
+/*Ver Tarefas*/
+.task {
+    margin-top: 2.5vh;
+}
+.concluir {
+    background-color: greenyellow;
+    border: 3px solid greenyellow;
+    margin-left: 10px;
+}
+.remove {
+    background-color: rgb(255, 47, 47);
+    border: 3px solid rgb(255, 47, 47);
+}
+
+/* Criar Tarefa*/
+input {
+    height: 3.5vh;
+    width: 20vw;
+    border: 1px solid black;
+}
+#btn {
+    height: 4vh;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
